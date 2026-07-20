@@ -206,29 +206,9 @@ These high-concurrency and volumetric throughput benchmarks were executed using 
 ###### **Industrial Throughput Execution Report**
 
 | Method | ConcurrentAgentCount | Mean | Error | StdDev | Median | Rank | Allocated |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **ExecuteConcurrentTectonicTick** | 10,000 | 46.28 μs
-
- | 0.617 μs
-
- | 0.515 μs
-
- | 46.44 μs
-
- | 1
-
- | **-**<br> |
-| **ExecuteConcurrentTectonicTick** | 1,000,000 | 26,092.65 μs
-
- | 2,050.414 μs
-
- | 5,437.406 μs
-
- | 23,738.95 μs
-
- | 2
-
- | **-**<br> |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **ExecuteConcurrentTectonicTick** | 10,000 | 46.28 &mu;s | 0.617 &mu;s | 0.515 &mu;s | 46.44 &mu;s | 1 | **-** |
+| **ExecuteConcurrentTectonicTick** | 1,000,000 | 26,092.65 &mu;s | 2,050.414 &mu;s | 5,437.406 &mu;s | 23,738.95 &mu;s | 2 | **-** |
 
 ##### **Authoritative Production Performance Artifacts**
 
@@ -274,18 +254,10 @@ PES is distributed under a multi-tiered licensing model. Choose the edition that
 As a zero-overhead middleware infrastructure, all licensing transactions and build package deliveries are 100% automated. Click below to purchase a non-exclusive license and receive your production packages instantly:
 
 | Edition | Target Audience | Source Access | Pricing | Purchase Link |
-| --- | --- | --- | --- | --- |
-| **Pes.Community** | Hobbyists / Students | Full Open-Source
-
- | **Free**<br> | *Included in this Repository*<br> |
-| **Pes.Runtime** | Indie Studios / Production Apps | Obfuscated Binaries
-
- | **$299 USD** / Perpetual
-
- | [👉 Buy Runtime License (Instant Download)](https://www.google.com/search?q=%23)<br> |
-| **Pes.Enterprise** | AAA Games / Massive Agent Infra | Full Source Code
-
- | **$2,999 USD** / Per-Project | [👉 Buy Enterprise Source License](https://www.google.com/search?q=%23) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pes.Community** | Hobbyists / Students | Full Open-Source | **Free** | *Included in this Repository* |
+| **Pes.Runtime** | Indie Studios / Production Apps | Obfuscated Binaries | **$299 USD** / Perpetual | [👉 Buy Runtime License (Instant Download)](#) |
+| **Pes.Enterprise** | AAA Games / Massive Agent Infra | Full Source Code | **$2,999 USD** / Per-Project | [👉 Buy Enterprise Source License](#) |
 
 All commercial licenses are **perpetual and non-exclusive**. DamNesia Infrastructure retains exclusive intellectual property rights; purchasers are granted full rights to embed the middleware inside commercial titles but are legally restricted from public redistribution, sub-licensing, or reselling of the raw source code or binaries.
 
