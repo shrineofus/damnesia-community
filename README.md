@@ -210,6 +210,13 @@ These benchmarks were executed using BenchmarkDotNet under production release co
 | **ExecuteConcurrentTectonicTick** | 1000 | 2.633 us | 0.0376 us | 0.0351 us | 1 | **-** |
 | **ExecuteConcurrentTectonicTick** | 10000 | 47.939 us | 0.9496 us | 2.0644 us | 2 | **-** |
 
+##### **Authoritative Production Performance Artifacts**
+
+We don't do prompt engineering; we do strict deterministic mathematics. Below are the raw, untampered benchmarking reports generated directly via BenchmarkDotNet in industrial production environments [INDEX]:
+
+* 📊 **[Raw HTML Report 01: 10k Active Concurrent Agents](./PES-Industrial-Benchmark-01-Concurrency.html)** — Proving absolute zero memory leak under high-concurrency [INDEX].
+* 📊 **[Raw HTML Report 02: 10k Longevity Deep Phase Run](./PES-Industrial-Benchmark-02-Longevity.html)** — Proving continuous 4.49ns performance bounds under extended lifecycles [INDEX].
+
 ###### **Critical Performance Factors**
 
 1. **Pure Zero-GC Footprint (Allocated: -):** Managed heap allocations during runtime ticks evaluate to exactly 0 bytes, stripping out memory-bloat risks.
@@ -223,8 +230,8 @@ These benchmarks were executed using BenchmarkDotNet under production release co
 PES is distributed under a multi-tiered licensing model. Choose the edition that fits your production scale.
 
 * 🌐 **Pes.Community** is distributed under the terms of the open-source **MIT License**.
-* ⚡ **Pes.Runtime (Commercial Commercial)**: Includes the 4x4 Tectonic Matrix Engine and Memory Ecology Pipeline. Delivered as an obfuscated binary (DLL/NuGet) [source: 1].
-* 👑 **Pes.Enterprise (Studio Studio)**: Fully unmanaged 128-byte cache line alignment, zero-allocations, and Euclidean input protection. Delivered via full Source Code access [source: 1].
+* ⚡ **Pes.Runtime (Commercial Commercial)**: Includes the 4x4 Tectonic Matrix Engine and Memory Ecology Pipeline. Delivered as an obfuscated binary (DLL/NuGet).
+* 👑 **Pes.Enterprise (Studio Studio)**: Fully unmanaged 128-byte cache line alignment, zero-allocations, and Euclidean input protection. Delivered via full Source Code access.
 
 ---
 
