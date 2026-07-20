@@ -214,10 +214,9 @@ These high-concurrency and volumetric throughput benchmarks were executed using 
 
 We do not engage in unstable prompt engineering; we enforce strict deterministic structural mathematics at compile time. Below are the raw, untampered industrial benchmarking reports generated directly via BenchmarkDotNet in live production testing environments:
 
-* 📊 **[Raw HTML Report 01: AAA Million-Agent Infrastructure Volumetric Scale](https://www.google.com/search?q=./PES-Industrial-Benchmark-01-Concurrency.html)** — Demonstrating absolute zero memory leak and 0-GC footprints under concurrent multi-agent scaling up to 1,000,000 agents.
+* 📊 **[Raw HTML Report 01: AAA Million-Agent Infrastructure Volumetric Scale](./PES-Industrial-Benchmark-01-Concurrency.html)** — Demonstrating absolute zero memory leak and 0-GC footprints under concurrent multi-agent scaling up to 1,000,000 agents.
 
-
-* 📊 **[Raw HTML Report 02: 10k Longevity Deep Phase Analytical Execution](https://www.google.com/search?q=./PES-Industrial-Benchmark-02-Longevity.html)** — Validating ultra-low latency metrics at small and medium scale bounds across localized cycles[cite: 4].
+* 📊 **[Raw HTML Report 02: 10k Longevity Deep Phase Analytical Execution](./PES-Industrial-Benchmark-02-Longevity.html)** — Validating ultra-low latency metrics at small and medium scale bounds across localized cycles.
 
 ###### **Critical Performance Factors**
 
