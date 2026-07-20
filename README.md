@@ -99,13 +99,13 @@ The PES framework completely isolates structural mechanics through strict physic
 ```text
 PES.sln (Target Framework: .NET 10.0)
 │
-├── Pes.Abstractions/       (Contracts & Interfaces - Shared Telemetry Specs)[cite: 5]
+├── Pes.Abstractions/       (Contracts & Interfaces - Shared Telemetry Specs)
 │
-├── Tier 1 Pes.Community/    (Data Model Layer - MIT Reference Registries)[cite: 5]
+├── Tier 1 Pes.Community/    (Data Model Layer - MIT Reference Registries)
 │
-├── Tier 2 Pes.Runtime/      (Physics Dynamics Layer - Matrix Resonator & Ecology)[cite: 5]
+├── Tier 2 Pes.Runtime/      (Physics Dynamics Layer - Matrix Resonator & Ecology)
 │
-└── Tier 3 Pes.Enterprise/   (Hardware Optimization Layer - Cache Line Flattening)[cite: 5]
+└── Tier 3 Pes.Enterprise/   (Hardware Optimization Layer - Cache Line Flattening)
 
 ```
 
@@ -137,9 +137,9 @@ using System;
 using System.Collections.Generic;
 using Pes.Abstractions;
 using Pes.Runtime;
-using Pes.Enterprise.Hardware; // Direct reference to the optimized Tier 3 cache-aligned layer[cite: 1]
+using Pes.Enterprise.Hardware; // Direct reference to the optimized Tier 3 cache-aligned layer
 
-// 1. Establish the baseline 16-dimensional feature map derived from an LLM appraisal or baseline JSON snapshot[cite: 1]
+// 1. Establish the baseline 16-dimensional feature map derived from an LLM appraisal or baseline JSON snapshot
 var llmParsedBaseline = new Dictionary<SoulOrgan, double>
 {
     { SoulOrgan.CoreFocus, 0.0 },
@@ -156,19 +156,19 @@ var llmParsedBaseline = new Dictionary<SoulOrgan, double>
     { SoulOrgan.CompetitiveSpirit, 0.0 },
     { SoulOrgan.PrimaryDrive, 0.0 },
     { SoulOrgan.EmotionalThroughput, 0.0 },
-    { SoulOrgan.CoreSecurity, -35.0 }, // Target anchor position representing the primary core wound[cite: 1]
+    { SoulOrgan.CoreSecurity, -35.0 }, // Target anchor position representing the primary core wound
     { SoulOrgan.ObsessionControl, 0.0 }
 };
 
-// 2. Cold boot the enterprise engine hull, immediately blit-baking the registry into flat 128-byte primitive arrays[cite: 1]
+// 2. Cold boot the enterprise engine hull, immediately blit-baking the registry into flat 128-byte primitive arrays
 var engine = new PesEnterpriseEngine(llmParsedBaseline, initialAquiferPressure: 40.0, anchor: SoulOrgan.CoreSecurity);
 
-// 3. Receive an un-scripted user action evaluated by the LLM Appraisal Lens and transform it into a seismic matrix[cite: 1]
+// 3. Receive an un-scripted user action evaluated by the LLM Appraisal Lens and transform it into a seismic matrix
 var incomingTrauma = new SeismicEventMatrix("Player triggers localized trauma stimulus")
     .SetImpulse(SoulOrgan.CoreSecurity, -35.0)
     .SetImpulse(SoulOrgan.TrustDependence, -15.0);
 
-// 4. Fire the high-performance ecological tick (Overridden 0-GC hot path passing directly through L1/L2 cache lines)[cite: 1]
+// 4. Fire the high-performance ecological tick (Overridden 0-GC hot path passing directly through L1/L2 cache lines)
 engine.ExecuteEcosystemTick(
     incomingTrauma, 
     "You've hidden this from me for years...", 
@@ -176,7 +176,7 @@ engine.ExecuteEcosystemTick(
     isPlayerActionCorrect: false
 );
 
-// 5. Capture thread-safe, immutable telemetry for presentation or persistence layers[cite: 1]
+// 5. Capture thread-safe, immutable telemetry for presentation or persistence layers
 ISoulSnapshot telemetry = engine.TakeSnapshot();
 Console.WriteLine($"Current System Phase: {engine.CurrentPhase}, Aquifer Pressure: {engine.AquiferPressure}");
 
