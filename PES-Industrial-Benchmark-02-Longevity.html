@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>PES.Benchmark.PesTopologicalStressTest-1150719-175315</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.15.8, Windows 11 (10.0.26200.8875/25H2/2025Update/HudsonValley2)
+12th Gen Intel Core i5-12400 2.50GHz, 1 CPU, 12 logical and 6 physical cores
+.NET SDK 10.0.301
+  [Host]     : .NET 10.0.9 (10.0.9, 10.0.926.27113), X64 RyuJIT x86-64-v3 [AttachedDebugger]
+  DefaultJob : .NET 10.0.9 (10.0.9, 10.0.926.27113), X64 RyuJIT x86-64-v3
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method                 </th><th>ConcurrentAgentCount</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Rank</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>ExecuteConcurrentTectonicTick</td><td>1000</td><td>2.592 &mu;s</td><td>0.0501 &mu;s</td><td>0.0468 &mu;s</td><td>1</td><td>-</td>
+</tr><tr><td>ExecuteConcurrentTectonicTick</td><td>10000</td><td>44.938 &mu;s</td><td>0.8828 &mu;s</td><td>0.8258 &mu;s</td><td>2</td><td>-</td>
+</tr></tbody></table>
+</body>
+</html>
