@@ -164,6 +164,7 @@ As a zero-overhead middleware infrastructure, all licensing transactions and bui
 | **Pes.Enterprise** | AAA Games / Massive Agent Infra | Full Unmanaged Source Code | **$2,999 USD** / Per-Project | [👉 Buy Enterprise Source License](https://damnesia.lemonsqueezy.com/checkout/buy/e268006a-72be-4244-b927-26ae9b165669) |
 
 All commercial licenses are **perpetual and non-exclusive**. DamNesia Infrastructure retains exclusive intellectual property rights; purchasers are granted full rights to embed the middleware inside commercial titles but are legally restricted from public redistribution, sub-licensing, or reselling of the raw source code or binaries.
+
 Copyright © 2026 DamNesia Infrastructure. All rights reserved.
 ------------------------------
 Perhaps we were never islands.
