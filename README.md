@@ -255,8 +255,8 @@ As a zero-overhead middleware infrastructure, all licensing transactions and bui
 | Edition | Target Audience | Source Access | Pricing | Purchase Link |
 | :--- | :--- | :--- | :--- | :--- |
 | **Pes.Community** | Hobbyists / Students | Full Open-Source | **Free** | *Included in this Repository* |
-| **Pes.Runtime** | Indie Studios / Production Apps | Obfuscated Binaries | **$299 USD** / Perpetual | [👉 Buy Runtime License (Instant Download)](#) |
-| **Pes.Enterprise** | AAA Games / Massive Agent Infra | Full Source Code | **$2,999 USD** / Per-Project | [👉 Buy Enterprise Source License](#) |
+| **Pes.Runtime** | Indie Studios / Production Apps | Obfuscated Binaries | **$299 USD** / Perpetual | [👉 [Buy Runtime License (Instant Download)](https://damnesia.lemonsqueezy.com/checkout/buy/3486e08f-6efb-4d8d-9b2b-7948bac1ad73)](#) |
+| **Pes.Enterprise** | AAA Games / Massive Agent Infra | Full Source Code | **$2,999 USD** / Per-Project | [👉 [Buy Enterprise Source License](https://damnesia.lemonsqueezy.com/checkout/buy/e268006a-72be-4244-b927-26ae9b165669)](#) |
 
 All commercial licenses are **perpetual and non-exclusive**. DamNesia Infrastructure retains exclusive intellectual property rights; purchasers are granted full rights to embed the middleware inside commercial titles but are legally restricted from public redistribution, sub-licensing, or reselling of the raw source code or binaries.
 
